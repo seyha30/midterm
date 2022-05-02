@@ -9,4 +9,4 @@ Shop A 			Dell 		Vostro		665			11/2/2022
 ...
 
 
-2. alculate average laptop price.
+2. calculate average laptop price.
