@@ -1,0 +1,12 @@
+We are collecting laptop sale recrods from 3 computer shops (Shop A, Shop B, and Shop C) for the first quater of 2022. Each file stores the sale records for each month, while each folder store the files for a shop.
+
+1. Combine all files into a new CSV file with the following format:
+
+Shop Name		Brand		Model		Price		Date
+-------------------------------------------------------------
+Shop A 			Dell 		Vostro		665			11/2/2022
+...
+...
+
+
+2. alculate average laptop price.
