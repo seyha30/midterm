@@ -20,8 +20,12 @@ for path in paths:
             csv = pandas.read_csv(os.path.join(path ,file))
             print(csv)
         if file.endswith(".xlsx") or file.endswith(".xls"):
-            worksheet = pandas.read_excel(os.path.join(path ,file), sheet_name=None)
-            print(worksheet)
+            worksheet = pandas.read_excel(os.path.join(path ,file), sheet_name=None )
+            # print(worksheet)
+            # convert to data fram
+            data = pandas.DataFrame(worksheet,columns=['brand','model','price','date'])
+            print(data)
+
 # iterate list
 for i in list:
     pass
@@ -29,5 +33,9 @@ for i in list:
 def todo_read_csv():
     pass
 # function for read excel file
-def todo_read_excel():
+def todo_read_excel(worksheet):
+    pass
+def calculate_average():
+    pass
+def handle_write_csv():
     pass
