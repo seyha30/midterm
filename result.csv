@@ -1,0 +1,9 @@
+No,Customer Name,Customer Phone No,Laptop Brand,Laptop Model,Date,Price
+1,Jacky,012 345 678,Accer,V7,2/3/22,755
+2,Rith,012 987 654,MSI,M11,10/3/22,569
+3,Sokha,011 111 111,Huawei,H12,16/3/22,856
+,0,1
+0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
+0        Accer           V7 2022-01-12    755
+1        Accer           V7 2022-01-15    755
+2         Dell       Vostro 2022-01-16    860"

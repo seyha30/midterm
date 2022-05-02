@@ -1,4 +1,6 @@
 import os
+from unittest import result
+from numpy import pad
 import pandas
 import glob
 import csv 
@@ -14,28 +16,15 @@ paths = ['./Shop A/','./Shop B/','./Shop C/']
 list = []
 outputFilePath = 'result.csv'
 for path in paths:
-    print(path)
+    # print(path)
     for file in os.listdir(path):
         if file.endswith(".csv"):
             csv = pandas.read_csv(os.path.join(path ,file))
-            print(csv)
-        if file.endswith(".xlsx") or file.endswith(".xls"):
-            worksheet = pandas.read_excel(os.path.join(path ,file), sheet_name=None )
-            # print(worksheet)
-            # convert to data fram
-            data = pandas.DataFrame(worksheet,columns=['brand','model','price','date'])
-            print(data)
-
-# iterate list
-for i in list:
-    pass
-# function for read csv file
-def todo_read_csv():
-    pass
-# function for read excel file
-def todo_read_excel(worksheet):
-    pass
-def calculate_average():
-    pass
-def handle_write_csv():
-    pass
+            # print(csv['Price'].str.isnumeric() == True)
+            csv.to_csv('result.csv', index=False)
+        if file.endswith(".xlsx"):
+            worksheet = pandas.read_excel(os.path.join(path ,file), sheet_name=None,usecols='D:G')
+            df = pandas.DataFrame(worksheet.items())
+            print(df)
+            df.to_csv('result.csv',mode='a')
+    
