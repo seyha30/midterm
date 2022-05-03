@@ -1,7 +1,42 @@
-No,Customer Name,Customer Phone No,Laptop Brand,Laptop Model,Date,Price
-1,Jacky,012 345 678,Accer,V7,2/3/22,755
-2,Rith,012 987 654,MSI,M11,10/3/22,569
-3,Sokha,011 111 111,Huawei,H12,16/3/22,856
+,0,1
+0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
+0        Accer           V7 2022-02-02    755
+1          MSI          M11 2022-02-10    569
+2       Huawei          H12 2022-02-16    856"
+,0,1
+0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
+0        Accer           V7 2022-03-12    694
+1       Lenovo           L9 2022-03-15    751
+2       Lenovo         Lite 2022-03-16    454"
+,0,1
+0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
+0        Accer           V7 2022-01-12    755
+1        Accer           V7 2022-01-15    755
+2         Dell       Vostro 2022-01-16    860"
+,0,1
+0,Sheet1,"       Laptop  Price       Date
+0  Lenovo-L99    555 2022-02-12
+1      Mac-M2   1249 2022-02-15
+2     Dell-D2    699 2022-02-08"
+,0,1
+0,Sheet1,"        Laptop  Price       Date
+0  Dell-Vostro    555 2022-03-12
+1       Mac-M1   1249 2022-03-15
+2      Dell-D2    699 2022-03-08"
+,0,1
+0,Sheet1,"        Laptop  Price       Date
+0  Dell-Vostro    555 2022-01-12
+1       Mac-M1   1249 2022-01-15
+2      Dell-D2    699 2022-01-08"
+,0,1
+0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
+0        Accer           V7 2022-02-02    755
+1          MSI          M11 2022-02-10    569
+2       Huawei          H12 2022-02-16    856"
+,No,Customer Name,Customer Phone No,Laptop Brand,Laptop Model,Date,Price
+0,1,Jacky,012 345 678,Accer,V7,2/3/22,755
+1,2,Rith,012 987 654,MSI,M11,10/3/22,569
+2,3,Sokha,011 111 111,Huawei,H12,16/3/22,856
 ,0,1
 0,Sheet1,"  Laptop Brand Laptop Model       Date  Price
 0        Accer           V7 2022-01-12    755
